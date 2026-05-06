@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod  
-
+#prueba 1
 # Clase abstracta "servicio"
 # Sirve como plantilla para otros servicios que hereden de esta
 class servicio(ABC):      
@@ -13,7 +13,7 @@ class servicio(ABC):
     # Getter del atributo nombre
     @property 
     def nombre(self):    
-        return self._nombre  
+        return self.__nombre  
 
     # Setter del atributo nombre con validación
     @nombre.setter 
@@ -26,7 +26,7 @@ class servicio(ABC):
     # Getter del atributo costo_base
     @property 
     def costo_base(self):    
-        return self._costo_base  
+        return self.__costo_base  
 
     # Setter del atributo costo_base con validaciones
     @costo_base.setter 
