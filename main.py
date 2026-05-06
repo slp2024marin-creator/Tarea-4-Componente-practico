@@ -2,7 +2,7 @@ import uuid
 from abc import ABC, abstractmethod
 
 # Clase base abstracta que define la estructura de las entidades en el sistema
-#
+##################################################################
 
 
 class EntidadBase(ABC):
