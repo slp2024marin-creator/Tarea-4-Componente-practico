@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod  
-#cambio prueba
+#cambio 
 # Clase abstracta "servicio"
 # Sirve como plantilla para otros servicios que hereden de esta
 class servicio(ABC):      
