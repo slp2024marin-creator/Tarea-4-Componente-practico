@@ -1,7 +1,8 @@
+import uuid
 from abc import ABC, abstractmethod
 
 # Clase base abstracta que define la estructura de las entidades en el sistema
-#
+##################################################################
 
 
 class EntidadBase(ABC):
@@ -21,6 +22,9 @@ class EntidadBase(ABC):
     @abstractmethod
     def mostrar_informacion(self):
         pass
+
+    def generar_id(self):
+        return str(uuid.uuid4())[:8]
 
 
 # Clase Cliente
